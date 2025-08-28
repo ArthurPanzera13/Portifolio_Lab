@@ -62,14 +62,6 @@ export const skills: SkillItem[] = [
     category: "Frontend",
   },
   {
-    name: "MUI",
-    icon: SiMui,
-    color: "#007FFF",
-    bg: "#E3F2FD",
-    ariaLabel: "Material UI",
-    category: "Frontend",
-  },
-  {
     name: "Tailwind CSS",
     icon: SiTailwindcss,
     color: "#06B6D4",
@@ -79,22 +71,6 @@ export const skills: SkillItem[] = [
   },
 
   // Backend
-  {
-    name: "Python",
-    icon: SiPython,
-    color: "#3776AB",
-    bg: "#E3F2FD",
-    ariaLabel: "Python",
-    category: "Backend",
-  },
-  {
-    name: "Golang",
-    icon: FaGolang,
-    color: "#00ADD8",
-    bg: "#E3F2FD",
-    ariaLabel: "Golang",
-    category: "Backend",
-  },
   {
     name: "PHP",
     icon: SiPhp,
@@ -111,14 +87,7 @@ export const skills: SkillItem[] = [
     ariaLabel: "Java",
     category: "Backend",
   },
-  {
-    name: "Django",
-    icon: SiDjango,
-    color: "#092E20",
-    bg: "#E3F2FD",
-    ariaLabel: "Django",
-    category: "Backend",
-  },
+
   {
     name: "SpringBoot",
     icon: SiSpringboot,
@@ -135,22 +104,6 @@ export const skills: SkillItem[] = [
     ariaLabel: "Node.js",
     category: "Backend",
   },
-  {
-    name: "Express",
-    icon: SiExpress,
-    color: "#000000",
-    bg: gray200,
-    ariaLabel: "Express",
-    category: "Backend",
-  },
-  {
-    name: "Prisma",
-    icon: SiPrisma,
-    color: "#2D3748",
-    bg: gray100,
-    ariaLabel: "Prisma ORM",
-    category: "Backend",
-  },
 
   // Database
   {
@@ -159,22 +112,6 @@ export const skills: SkillItem[] = [
     color: "#336791",
     bg: "#E3F2FD",
     ariaLabel: "PostgreSQL",
-    category: "Database",
-  },
-  {
-    name: "MongoDB",
-    icon: SiMongodb,
-    color: "#47A248",
-    bg: "#E8F5E9",
-    ariaLabel: "MongoDB",
-    category: "Database",
-  },
-  {
-    name: "ChromaDB",
-    icon: BiVector,
-    color: "#000000",
-    bg: gray200,
-    ariaLabel: "ChromaDB",
     category: "Database",
   },
 
@@ -196,40 +133,6 @@ export const skills: SkillItem[] = [
     category: "Mobile",
   },
 
-  // DevOps
-  {
-    name: "Docker",
-    icon: SiDocker,
-    color: "#2496ED",
-    bg: "#E3F2FD",
-    ariaLabel: "Docker",
-    category: "DevOps",
-  },
-  {
-    name: "Linux",
-    icon: SiLinux,
-    color: "#000000",
-    bg: gray200,
-    ariaLabel: "Linux",
-    category: "DevOps",
-  },
-  {
-    name: "Vercel",
-    icon: SiVercel,
-    color: "#000000",
-    bg: gray200,
-    ariaLabel: "Vercel",
-    category: "DevOps",
-  },
-  // Testing
-  {
-    name: "Jest",
-    icon: SiJest,
-    color: "#C21325",
-    bg: "#FFEBEE",
-    ariaLabel: "Jest",
-    category: "Testing",
-  },
   // Design
   {
     name: "Figma",
@@ -255,30 +158,6 @@ export const skills: SkillItem[] = [
     color: "#181717",
     bg: gray200,
     ariaLabel: "GitHub",
-    category: "Tools",
-  },
-  {
-    name: "Langchain",
-    icon: SiLangchain,
-    color: "#000000",
-    bg: gray200,
-    ariaLabel: "Langchain",
-    category: "Tools",
-  },
-  {
-    name: "OpenAI",
-    icon: SiOpenai,
-    color: "#000000",
-    bg: gray200,
-    ariaLabel: "OpenAI",
-    category: "Tools",
-  },
-  {
-    name: "Google Gemini",
-    icon: SiGooglegemini,
-    color: "#000000",
-    bg: gray200,
-    ariaLabel: "Gemini",
     category: "Tools",
   },
 

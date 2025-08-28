@@ -7,30 +7,30 @@
         "contato": "Contact"
     },
     "user": {
-        "desc": "I’m a Full Stack Developer specialized in AI and automation, building end-to-end solutions that connect reactive frontends, robust APIs, and intelligent agents. I orchestrate automated workflows, LLM integrations, and cloud-native services with an emphasis on security, observability, and cost efficiency. My goal is to reduce operational toil and accelerate value delivery with reliable, measurable systems that are easy to evolve.",
-        "fullstack": "Fullstack",
-        "backend": "Backend",
-        "ai": "AI",
-        "software": "Software"
+        "desc": "I am a developer with experience in analysis, development, and maintenance of corporate systems, working on solutions that involve JavaScript, jQuery, Bootstrap, SQL (MySQL/SQL Server), as well as consuming APIs and Web Services (SOAP/REST). I have experience with agile methodologies and participation in all stages of projects, from requirements gathering to final delivery and user support. Throughout my career, I have worked on integration and automation projects within the TOTVS Fluig, RM, and Protheus ecosystems, always aiming to align technology and business processes to generate efficiency and results. This experience gave me direct contact with BPM workflows, user management, SQL queries, and system integrations, in addition to strengthening my ability to act as a bridge between technical and operational areas. My focus is to continue expanding my expertise as a developer, exploring new technologies and frameworks, while keeping as a differential my ability to deliver practical solutions in complex corporate environments.",
+        "fullstack": "BPMN",
+        "fluig": "Fluig",
+        "software": "Software",
+        "frontend": "Front-end"
     },
     "home": {
         "desenvolvedor": "Developer",
-        "btnTexto01": "Download CV",
+        "btnTexto01": "Download Resume",
         "btnTexto02": "Get in Touch"
     },
     "destaquesSecao": {
-        "titulo": "My Highlights",
-        "subtitulo": "See some of my main works here.",
-        "btnTexto": "See all Projects"
+        "titulo": "Highlights",
+        "subtitulo": "Here are some of my main works.",
+        "btnTexto": "View All Projects"
     },
     "footer": {
         "navegacao": "Navigation",
-        "conecte": "Contact",
+        "conecte": "Connect",
         "direitos": "All rights reserved."
     },
     "projetosSecao": {
         "titulo": "My Projects",
-        "subtitulo": "See some of my projects here.",
+        "subtitulo": "Take a look at some of my projects.",
         "filtros": {
             "all": "All"
         }
@@ -39,12 +39,12 @@
         "titulo": "About Me"
     },
     "experienciaSecao": {
-        "titulo": "Experiences",
-        "subtitulo": "See here a little about my journey."
+        "titulo": "Experience",
+        "subtitulo": "Here’s a little about my journey."
     },
     "habilidadesSecao": {
         "titulo": "My Skills",
-        "subtitulo": "See some of my technical skills here.",
+        "subtitulo": "Here are some of my technical skills.",
         "filtros": {
             "todos": "All",
             "frontend": "Frontend",
@@ -65,149 +65,133 @@
             "anos": "Years",
             "clientes": "Clients",
             "dedicacao": "Dedication",
-            "satisfacao": "Customer Satisfaction"
+            "satisfacao": "Client Satisfaction"
         }
     },
     "projetoModal": {
-        "sobre": "About the project",
+        "sobre": "About the Project",
         "tecnologias": "Technologies Used",
-        "btnTexto01": "Watch online",
-        "btnTexto02": "See code"
+        "btnTexto01": "View Online",
+        "btnTexto02": "View Code"
     },
     "contatoSecao": {
-        "titulo": "Contacts",
+        "titulo": "Contact",
         "subtitulo": "Did you like what you saw? Reach out through one of these channels.",
         "cardEmail": {
-            "titulo": "Send your message",
+            "titulo": "Send Your Message",
             "labelNome": "Name",
             "labelTelefone": "Phone",
             "labelMensagem": "Message",
             "btnTexto": "Send Message"
         },
-        "titulo02": "Connect Through",
+        "titulo02": "Connect Via",
         "alert": "Please fill in all fields to send the message"
     },
     "chat": {
         "titulo": "Personal Assistant",
         "placeholder": "Type your message...",
-        "mensagemInicial": "Hello! How can I help you today? Ask anything about Guilherme."
+        "mensagemInicial": "Hello! How can I help you today? Ask me anything about Guilherme."
     },
     "servicosSecao": {
         "titulo": "My Services",
-        "subtitulo": "Complete solutions to transform your ideas into digital reality."
+        "subtitulo": "Complete solutions to turn your ideas into digital reality."
     },
     "servicos": {
         "sites": {
-            "titulo": "Website Creation",
+            "titulo": "Website Development",
             "descricao": "Modern, responsive, and optimized institutional websites for your company"
         },
         "landing": {
             "titulo": "Landing Pages",
-            "descricao": "Conversion-optimized pages to increase your sales and leads"
+            "descricao": "High-conversion pages optimized to increase your sales and leads"
         },
         "ecommerce": {
             "titulo": "E-commerce",
-            "descricao": "Complete online stores with payment system and product management"
+            "descricao": "Complete online stores with payment systems and product management"
         },
         "linkBio": {
             "titulo": "Link in Bio",
-            "descricao": "Custom pages to centralize all your links and social media"
+            "descricao": "Personalized pages to centralize all your links and social media"
         },
         "manutencao": {
             "titulo": "Maintenance",
             "descricao": "Technical support, updates, and continuous improvements for your website"
         },
+        "fluig": {
+            "titulo": "Fluig Solutions",
+            "descricao": "Solutions for the TOTVS FLUIG system, including automations and integrations"
+        },
+        "bpmn": {
+            "titulo": "BPMN",
+            "descricao": "Business process modeling and automation to optimize operations"
+        },
         "personalizado": {
             "titulo": "Custom Project",
-            "descricao": "Tailor-made solutions for your business’s specific needs"
+            "descricao": "Tailor-made solutions for specific business needs"
         }
     },
     "experiencias": {
         "experiencia01": {
-            "papel": "Fullstack Developer - Experimental Agency",
-            "empresa": "Puc Minas",
-            "descricao": "I work as a FullStack Developer at Puc Minas' Experimental Agency, actively participating in the Grade Inteligente and Landing Page projects, where I gained practical experience in non-profit initiatives. I develop using Java with SpringBoot, and TypeScript on the frontend.",
+            "papel": "Systems Analyst",
+            "empresa": "Compila Soluções em Tecnologia",
+            "descricao": "Responsible for the maintenance and development of corporate systems using JavaScript, HTML, jQuery, and Bootstrap. Perform SQL queries, system integrations with TOTVS Protheus, as well as providing user support and handling tickets. Work with agile methodologies to ensure deliveries aligned with company needs.",
             "tipo": "Work"
         },
         "experiencia02": {
-            "papel": "FullStack Development Intern",
-            "empresa": "4mti",
-            "descricao": "I work on the development of automated solutions and handling large volumes of data using PHP, Python, HTML, and PostgreSQL. I create bots and automations to optimize processes, as well as contribute to the front-end of applications and database management.",
+            "papel": "Systems Assistant",
+            "empresa": "Reframax Engenharia Ltda",
+            "descricao": "Responsible for maintaining software with JavaScript, HTML, jQuery, and Bootstrap, as well as SQL queries and system integration with TOTVS RM. Worked on user management in the Fluig platform and provided technical support, using agile methodologies to meet business needs.",
             "tipo": "Work"
         },
         "experiencia03": {
-            "papel": "Freelancer - Web Development",
-            "empresa": "Voogle",
-            "descricao": "I developed a personalized web page for a client, meeting their specific design and functionality needs. For the project, I used React, TypeScript, and Tailwind to build a responsive and intuitive interface. I delivered the project within the agreed timeframe, achieving high client satisfaction.",
+            "papel": "Systems Intern",
+            "empresa": "Reframax Engenharia Ltda",
+            "descricao": "Assisted in supporting and maintaining corporate software, focusing on JavaScript, HTML, jQuery, and Bootstrap. Participated in user management activities in Fluig, provided technical support, and worked with agile methodologies alongside the team.",
             "tipo": "Work"
         },
         "experiencia04": {
-            "papel": "Treasury Coordinator - Obra Jovem Santa Helena",
-            "empresa": "Santa Helena",
-            "descricao": "I was the Treasury Coordinator of Obra Jovem Santa Helena, responsible for managing the treasury and financing of the project.",
-            "tipo": "Volunteering"
+            "papel": "IT Apprentice",
+            "empresa": "Reframax Engenharia Ltda",
+            "descricao": "Provided technical support to users, including computer formatting, user management, and incident resolution. This experience consolidated my foundation in IT infrastructure and support.",
+            "tipo": "Work"
         },
         "experiencia05": {
-            "papel": "Software Engineering",
+            "papel": "Software Engineering Undergraduate",
             "empresa": "PUC Minas",
-            "descricao": "Project-oriented education with a solid foundation in architecture, data structures, databases, and embedded systems. Emphasis on best practices (such as testing, version control, and CI/CD), agile methodologies, and AI fundamentals to build scalable, secure, and production-ready solutions.",
+            "descricao": "Project-oriented education, with a solid foundation in software architecture, data structures, databases, and artificial intelligence fundamentals. Emphasis on development best practices such as code versioning, automated testing, agile methodologies, and CI/CD.",
             "tipo": "Study"
         },
         "experiencia06": {
-            "papel": "Perseverance Coordinator - Obra Jovem Santa Helena",
-            "empresa": "Santa Helena",
-            "descricao": "I was the Perseverance Coordinator of Obra Jovem Santa Helena, responsible for catechism and the formation of young Catholics.",
-            "tipo": "Volunteering"
+            "papel": "Computer Engineering Undergraduate",
+            "empresa": "PUC Minas",
+            "descricao": "Project-oriented education, with a solid foundation in software architecture, data structures, databases, and artificial intelligence fundamentals. Emphasis on development best practices such as code versioning, automated testing, agile methodologies, and CI/CD.",
+            "tipo": "Study"
         }
     },
     "projects": {
-        "btnTexto": "See Details",
+        "btnTexto": "View Details",
         "types": {
             "sites": "Websites",
             "landing": "Landing Pages",
-            "apps": "Apps",
+            "apps": "Applications",
             "ecommerce": "E-Commerce",
             "others": "Others"
         },
-        "status":{
+        "status": {
             "inProgress": "In Progress",
-            "done": "Finished"
+            "done": "Completed"
         },
-        "tradutorIA": {
-            "title": "Tradutor com IA",
-            "description": "Este projeto é uma aplicação web para tradução de textos entre diferentes idiomas. Feito em React, ele conta com uma interface moderna, responsiva e fácil de usar — funcionando perfeitamente em computadores, tablets e celulares."
+        "catalogoFilmes": {
+            "title": "Movie Catalog",
+            "description": "A movie catalog project, developed to allow users to browse the most popular titles of today and also search for any movie of their choice. The application provides relevant information such as trailer, release date, duration, revenue, budget, and description, offering a complete browsing experience."
         },
-        "ReadmeCreator": {
-            "title": "Criador de Readme",
-            "description": "O ReadmeCreator é uma ferramenta com IA que ajuda a escrever READMEs consistentes, completos e profissionais para qualquer repositório. Conecta-se ao GitHub para importar informações do projeto e agilizar a publicação. Sugere seções úteis (visão geral, instalação, uso, roadmap, licença), otimiza a legibilidade e incentiva boas práticas de documentação. Ideal para acelerar a criação de READMEs padronizados em equipes ou portfólios pessoais."
+        "Secret Word": {
+            "title": "Secret Word",
+            "description": "Secret Word is a project developed in React. The project is designed to be a virtual hangman game. With this project, I aim to study state management of elements, practice using React hooks, and further develop programming logic. A word and category are randomly selected, and the user must guess the letters in the word. Each correct guess adds 100 points, but after 5 incorrect guesses, the game ends and displays the final score."
         },
-        "Portifolio": {
-            "title": "Portifolio",
-            "description": "Este portfólio foi pensado para ser dinâmico e conversacional. Além de apresentar meus projetos, experiências e contato, ele traz um assistente de IA que ajuda visitantes a navegar e entender rapidamente o que faço: explica tecnologias usadas, sugere projetos relevantes e responde dúvidas frequentes. A proposta é transformar o portfólio em uma experiência guiada, com descobertas contextualizadas e interação natural."
-        },
-        "G-agro": {
-            "title": "G-AGRO",
-            "description": "O G-Agro é um sistema voltado a produtores e gestores do agronegócio, oferecendo uma visão unificada das operações no campo. Permite organizar propriedades e áreas de produção, acompanhar insumos e atividades (plantio, tratos, colheita), registrar custos e visualizar desempenho por safra. Com painéis sintéticos, facilita a identificação de gargalos, o controle de estoque e a análise de rentabilidade."
-        },
-        "BasicoBemFeito": {
-            "title": "Básico Bem Feito",
-            "description": "O Básico Bem Feito nasce da ideia de que simplicidade e capricho elevam a experiência do usuário. É um site estático para academia, construído com atenção a layout responsivo, tipografia legível e acessibilidade. Inclui uma funcionalidade simples de criação de fichas de treino e seções essenciais como planos, horários e contato. Um projeto que prioriza boas práticas de front-end desde o início da jornada."
-        },
-        "Optima": {
-            "title": "Optima",
-            "description": "O Optima é um sistema de gestão empresarial que integra os principais processos de uma empresa em um só lugar. Abrange módulos de vendas, compras, estoque e financeiro, permitindo controle do fluxo de ponta a ponta — da entrada de pedidos ao acompanhamento de margens e lucros. Com painéis e relatórios personalizáveis, apoia decisões rápidas e embasadas, reduzindo retrabalho e aumentando a visibilidade operacional."
-        },
-         "Ecommerce": {
-            "title": "E-commerce",
-            "description": "E-commerce full-feature, com catálogo de produtos (categorias, filtros e busca), páginas de produto com variações, carrinho persistente e checkout seguro integrado a um gateway de pagamento. Inclui cálculo de frete, gestão básica de estoque, área do cliente (pedidos e dados), e painel administrativo para CRUD de produtos. Projetado com boas práticas de SEO, acessibilidade e monitoramento de eventos para otimização de conversão."
-        },
-        "Ajunta": {
-            "title": "Ajunta",
-            "description": "A Ajunta é uma rede social criada para valorizar e integrar a cena artística de Contagem. Artistas podem criar perfis, publicar trabalhos, se conectar com outros criadores e descobrir oportunidades locais. O objetivo é fortalecer o ecossistema cultural, facilitar parcerias e dar visibilidade a talentos por meio de portfólios, eventos e interações em comunidade."
-        },
-        "Voogle": {
-            "title": "Voogle",
-            "description": "A Ajunta é uma rede social criada para valorizar e integrar a cena artística de Contagem. Artistas podem criar perfis, publicar trabalhos, se conectar com outros criadores e descobrir oportunidades locais. O objetivo é fortalecer o ecossistema cultural, facilitar parcerias e dar visibilidade a talentos por meio de portfólios, eventos e interações em comunidade."
+        "NutriSmart": {
+            "title": "NutriSmart",
+            "description": "NutriSmart is a platform designed for people who want to adopt a healthier lifestyle, including those who are overweight, undernourished, have dietary restrictions, or simply want better diet organization. With NutriSmart, users can create personalized diets according to their goals, receiving specific guidance to achieve them. The platform includes smart reminders to maintain regularity in meals and hydration throughout the day. It also features a scoring system that makes progress more motivating, allowing users to track results through a detailed dashboard. Additionally, it provides a section with educational videos on health, wellness, and lifestyle practices. NutriSmart transforms health care into a simple, practical, and inspiring experience."
         }
     }
 }

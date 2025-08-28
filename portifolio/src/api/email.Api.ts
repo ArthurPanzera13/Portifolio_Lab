@@ -6,7 +6,7 @@ export async function sendEmail(nome: string, email: string, telefone: string, m
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          recipient: "guilhermearv3@gmail.com",
+          recipient: "arthurpanzera@outlook.com",
           subject: `Olá, sou ${nome} de email: ${email} com telefone: ${telefone}`,
           body: `${mensagem}`,
         }),

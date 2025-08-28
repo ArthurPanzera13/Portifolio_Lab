@@ -7,11 +7,11 @@
         "contato": "Contato"
     },
     "user": {
-        "desc": "Sou Desenvolvedor Full Stack especializado em IA e automação, criando soluções ponta a ponta que conectam frontends reativos, APIs robustas e agentes inteligentes. Trabalho na orquestração de fluxos automatizados, integrações com LLMs, e construção de serviços escaláveis em nuvem, sempre com atenção a segurança, observabilidade e custo. Meu objetivo é reduzir esforço operacional e acelerar a entrega de valor com sistemas confiáveis, mensuráveis e fáceis de evoluir.",
-        "fullstack": "Fullstack",
-        "backend": "Backend",
-        "ai": "de IA",
-        "software": "de Software"
+        "desc": "Sou desenvolvedor com experiência em análise, desenvolvimento e manutenção de sistemas corporativos, atuando em soluções que envolvem JavaScript, jQuery, Bootstrap, SQL (MySQL/SQL Server), além do consumo de APIs e Web Services (SOAP/REST). Tenho vivência em metodologias ágeis e participação em todas as etapas de projetos, desde o levantamento de requisitos até a entrega final e suporte ao usuário. Ao longo da minha trajetória, trabalhei em projetos de integração e automação dentro dos ecossistemas TOTVS Fluig, RM e Protheus, sempre buscando alinhar tecnologia e processos de negócio para gerar eficiência e resultados. Essa experiência me proporcionou contato direto com workflows BPM, gestão de usuários, consultas SQL e integrações entre sistemas, além de fortalecer minha habilidade de atuar como ponte entre áreas técnicas e operacionais. Meu foco é continuar ampliando minha atuação como desenvolvedor, explorando novas tecnologias e frameworks, mas mantendo como diferencial a capacidade de entregar soluções práticas em ambientes corporativos complexos.",
+        "fullstack": "de BPMN",
+        "fluig": "Fluig",
+        "software": "de Software",
+        "frontend": "Front-end"
     },
     "home": {
         "desenvolvedor": "Desenvolvedor",
@@ -117,6 +117,14 @@
             "titulo": "Manutenção",
             "descricao": "Suporte técnico, atualizações e melhorias contínuas para seu site"
         },
+        "fluig": {
+            "titulo": "Soluções Fluig",
+            "descricao": "Soluções para o Sistema TOTVS FLUIG, incluindo automações e integrações"
+        },
+        "bpmn": {
+            "titulo": "BPMN",
+            "descricao": "Modelagem e automação de processos de negócio para otimizar operações"
+        },
         "personalizado": {
             "titulo": "Projeto Personalizado",
             "descricao": "Soluções sob medida para necessidades específicas do seu negócio"
@@ -124,42 +132,43 @@
     },
     "experiencias": {
         "experiencia01": {
-            "papel": "Desenvolvedor Fullstack - Agência Experimental",
-            "empresa": "Puc Minas",
-            "descricao": "Sou desenvolvedor FullStack Na Agência Experimental da Puc Minas, participando ativamente dos projetos da Grade Inteligente e Landing Page, onde pude adquirir experiência prática em projetos sem fins lucrativos. Desenvolvo utilizando Java com SpringBoot, e TypeScript no frontend.",
+            "papel": "Analista de Sistemas",
+            "empresa": "Compila Soluções em Tecnologia",
+            "descricao": "Atuo na manutenção e desenvolvimento de softwares corporativos utilizando JavaScript, HTML, jQuery e Bootstrap. Realizo consultas SQL, integrações de sistemas com TOTVS Protheus, além de oferecer suporte aos usuários e atendimento de chamados. Trabalho com metodologias ágeis para garantir entregas alinhadas às demandas da empresa.",
             "tipo": "Trabalho"
         },
         "experiencia02": {
-            "papel": "Estagiário de Desenvolvimento FullStack",
-            "empresa": "4mti",
-            "descricao": "Atuo no desenvolvimento de soluções automatizadas e manipulação de grandes volumes de dados, utilizando PHP, Python, HTML e PostgreSQL. Trabalho na criação de robôs e automações para otimizar processos, além de contribuir para o front-end de aplicações e a gestão de banco de dados.",
+            "papel": "Assistente de Sistemas",
+            "empresa": "Reframax Engenharia Ltda",
+            "descricao": "Responsável pela manutenção de softwares com JavaScript, HTML, jQuery e Bootstrap, além de consultas SQL e integração de sistemas com TOTVS RM. Atuei no gerenciamento de usuários na plataforma Fluig e ofereci suporte técnico, utilizando metodologias ágeis para atender às necessidades do negócio.",
             "tipo": "Trabalho"
         },
         "experiencia03": {
-            "papel": "Freelancer - Desenvolvimento Web",
-            "empresa": "Voogle",
-            "descricao": "Desenvolvi uma página web personalizada para um cliente, atendendo às suas necessidades específicas de design e funcionalidade. Para o desenvolvimento do projeto, utilizei React, TypeScript, Tailwind para criar uma interface responsiva e intuitiva. Entreguei o projeto dentro do prazo estipulado, com alta satisfação do cliente.",
+            "papel": "Estagiário de Sistemas",
+            "empresa": "Reframax Engenharia Ltda",
+            "descricao": "Atuei no suporte e manutenção de softwares corporativos, com foco em JavaScript, HTML, jQuery e Bootstrap. Participei de atividades de gerenciamento de usuários no Fluig, além de oferecer suporte técnico e atuar com metodologias ágeis em conjunto com a equipe.",
             "tipo": "Trabalho"
         },
         "experiencia04": {
-            "papel": "Coordenador da Tesouraria da Obra Jovem Santa Helena",
-            "empresa": "Santa Helena",
-            "descricao": "Fui o coordenador da Tesouraria da Obra Jovem Santa Helena, responsável pela gestão da tesouraria e financiamento da obra.",
-            "tipo": "Voluntariado"
+            "papel": "Aprendiz de TI",
+            "empresa": "Reframax Engenharia Ltda",
+            "descricao": "Atuei no suporte técnico aos usuários, com atividades de formatação de computadores, gerenciamento de usuários e resolução de incidentes. Essa experiência consolidou minha base em infraestrutura e atendimento.",
+            "tipo": "Trabalho"
         },
         "experiencia05": {
-            "papel": "Engenharia de Software",
+            "papel": "Graduando em Engenharia de Software",
             "empresa": "PUC Minas",
-            "descricao": "Formação orientada a projetos com base sólida em arquitetura, estruturas de dados, bancos de dados e sistemas embarcados. Ênfase em boas práticas (como testes, versionamento e CI/CD), métodos ágeis e fundamentos de IA para construir soluções escaláveis, seguras e prontas para produção.",
+            "descricao": "Formação orientada a projetos, com base sólida em arquitetura de software, estruturas de dados, bancos de dados e fundamentos de inteligência artificial. Ênfase em boas práticas de desenvolvimento, como versionamento de código, testes automatizados, metodologias ágeis e CI/CD.",
             "tipo": "Estudo"
         },
         "experiencia06": {
-            "papel": "Coordenador da Perseverança da Obra Jovem Santa Helena",
-            "empresa": "Santa Helena",
-            "descricao": "Fui o coordenador da Perseverança da Obra Jovem Santa Helena, responsável pela catequização e formação de jovens católicos.",
-            "tipo": "Voluntariado"
+            "papel": "Graduando em Engenharia de Computação",
+            "empresa": "PUC Minas",
+            "descricao": "Formação orientada a projetos, com base sólida em arquitetura de software, estruturas de dados, bancos de dados e fundamentos de inteligência artificial. Ênfase em boas práticas de desenvolvimento, como versionamento de código, testes automatizados, metodologias ágeis e CI/CD.",
+            "tipo": "Estudo"
         }
     },
+
     "projects": {
         "btnTexto": "Ver Detalhes",
         "types": {
@@ -169,45 +178,21 @@
             "ecommerce": "E-Commerce",
             "others": "Outros"
         },
-        "status":{
+        "status": {
             "inProgress": "Em Andamento",
             "done": "Finalizado"
         },
-        "tradutorIA": {
-            "title": "Tradutor com IA",
-            "description": "Este projeto é uma aplicação web para tradução de textos entre diferentes idiomas. Feito em React, ele conta com uma interface moderna, responsiva e fácil de usar — funcionando perfeitamente em computadores, tablets e celulares."
+        "catalogoFilmes": {
+            "title": "Catálogo de Filmes",
+            "description": "Projeto de um catálogo de filmes, desenvolvido com o objetivo de permitir que o usuário navegue pelos títulos mais populares da atualidade e também pesquise pelo filme de sua escolha. A aplicação fornece diversas informações relevantes, como trailer, data de lançamento, duração, faturamento, orçamento e descrição, oferecendo uma experiência completa de consulta."
         },
-        "ReadmeCreator": {
-            "title": "Criador de Readme",
-            "description": "O ReadmeCreator é uma ferramenta com IA que ajuda a escrever READMEs consistentes, completos e profissionais para qualquer repositório. Conecta-se ao GitHub para importar informações do projeto e agilizar a publicação. Sugere seções úteis (visão geral, instalação, uso, roadmap, licença), otimiza a legibilidade e incentiva boas práticas de documentação. Ideal para acelerar a criação de READMEs padronizados em equipes ou portfólios pessoais."
+        "Secret Word": {
+            "title": "Secret Word",
+            "description": "O SecretWord é um projeto desenvolvido em React. Este projeto tem a proposta de ser um jogo da forca virtual. Por meio desse projeto pretendo estudar principalmente o controle de estado dos elementos do projeto, além de utilizar mais hooks presentes no React e desenvolver mais a lógica de programação por trás do projeto. Deverá ser sorteada uma palavra e uma categoria de palavras, o usuário deverá tentar acertar as letras que estão presentes nas palavras, a cada palavra acertada a pontuação vai aumentar 100 pontos, mas se o usuário errar 5 letras a forca vai para a tela final que mostra a pontuação total obtida e encerra o jogo."
         },
-        "Portifolio": {
-            "title": "Portifolio",
-            "description": "Este portfólio foi pensado para ser dinâmico e conversacional. Além de apresentar meus projetos, experiências e contato, ele traz um assistente de IA que ajuda visitantes a navegar e entender rapidamente o que faço: explica tecnologias usadas, sugere projetos relevantes e responde dúvidas frequentes. A proposta é transformar o portfólio em uma experiência guiada, com descobertas contextualizadas e interação natural."
-        },
-        "G-agro": {
-            "title": "G-AGRO",
-            "description": "O G-Agro é um sistema voltado a produtores e gestores do agronegócio, oferecendo uma visão unificada das operações no campo. Permite organizar propriedades e áreas de produção, acompanhar insumos e atividades (plantio, tratos, colheita), registrar custos e visualizar desempenho por safra. Com painéis sintéticos, facilita a identificação de gargalos, o controle de estoque e a análise de rentabilidade."
-        },
-        "BasicoBemFeito": {
-            "title": "Básico Bem Feito",
-            "description": "O Básico Bem Feito nasce da ideia de que simplicidade e capricho elevam a experiência do usuário. É um site estático para academia, construído com atenção a layout responsivo, tipografia legível e acessibilidade. Inclui uma funcionalidade simples de criação de fichas de treino e seções essenciais como planos, horários e contato. Um projeto que prioriza boas práticas de front-end desde o início da jornada."
-        },
-        "Optima": {
-            "title": "Optima",
-            "description": "O Optima é um sistema de gestão empresarial que integra os principais processos de uma empresa em um só lugar. Abrange módulos de vendas, compras, estoque e financeiro, permitindo controle do fluxo de ponta a ponta — da entrada de pedidos ao acompanhamento de margens e lucros. Com painéis e relatórios personalizáveis, apoia decisões rápidas e embasadas, reduzindo retrabalho e aumentando a visibilidade operacional."
-        },
-         "Ecommerce": {
-            "title": "E-commerce",
-            "description": "E-commerce full-feature, com catálogo de produtos (categorias, filtros e busca), páginas de produto com variações, carrinho persistente e checkout seguro integrado a um gateway de pagamento. Inclui cálculo de frete, gestão básica de estoque, área do cliente (pedidos e dados), e painel administrativo para CRUD de produtos. Projetado com boas práticas de SEO, acessibilidade e monitoramento de eventos para otimização de conversão."
-        },
-        "Ajunta": {
-            "title": "Ajunta",
-            "description": "A Ajunta é uma rede social criada para valorizar e integrar a cena artística de Contagem. Artistas podem criar perfis, publicar trabalhos, se conectar com outros criadores e descobrir oportunidades locais. O objetivo é fortalecer o ecossistema cultural, facilitar parcerias e dar visibilidade a talentos por meio de portfólios, eventos e interações em comunidade."
-        },
-        "Voogle": {
-            "title": "Voogle",
-            "description": "A Ajunta é uma rede social criada para valorizar e integrar a cena artística de Contagem. Artistas podem criar perfis, publicar trabalhos, se conectar com outros criadores e descobrir oportunidades locais. O objetivo é fortalecer o ecossistema cultural, facilitar parcerias e dar visibilidade a talentos por meio de portfólios, eventos e interações em comunidade."
+        "NutriSmart": {
+            "title": "NutriSmart",
+            "description": "NutriSmart é uma plataforma projetada para pessoas que desejam adotar uma vida mais saudável, incluindo aquelas com sobrepeso, subnutrição, restrições alimentares ou que buscam organizar melhor suas dietas. Com o NutriSmart, é possível criar dietas personalizadas de acordo com suas metas, recebendo orientações específicas para alcançar seus objetivos. A plataforma conta com lembretes inteligentes que ajudam a manter a regularidade na alimentação e na hidratação ao longo do dia. Além disso, oferece um sistema de pontuação que torna o progresso ainda mais motivador, permitindo acompanhar seus resultados por meio de um painel detalhado. Para complementar, disponibiliza uma seção com vídeos educativos sobre saúde, bem-estar e práticas para uma vida equilibrada. NutriSmart transforma o cuidado com a saúde em uma experiência simples, prática e inspiradora."
         }
     }
 }

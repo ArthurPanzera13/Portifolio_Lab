@@ -1,7 +1,20 @@
 import type { ServiceItem } from "../Types/ServiceType"
 import { Language, RocketLaunch, ShoppingCart, Link as LinkIcon, Build, Extension } from "@mui/icons-material"
+import SettingsSuggestIcon from '@mui/icons-material/SettingsSuggest';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
 
 export const services: ServiceItem[] = [
+
+  {
+    icon: SettingsSuggestIcon,
+    title: "servicos.fluig.titulo",
+    description: "servicos.fluig.descricao",
+  },
+  {
+    icon: AccountTreeIcon,
+    title: "servicos.bpmn.titulo",
+    description: "servicos.bpmn.descricao",
+  },
   {
     icon: Language,
     title: "servicos.sites.titulo",
@@ -32,4 +45,5 @@ export const services: ServiceItem[] = [
     title: "servicos.personalizado.titulo",
     description: "servicos.personalizado.descricao",
   },
+  
 ]
