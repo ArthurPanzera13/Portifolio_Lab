@@ -7,6 +7,7 @@ Seu objetivo é disponibilizar exemplos práticos e organizados que evidenciem a
 
 **🌐 Acesse aqui:** 
 
+- [Arthur Panzera](https://arthurpanzera13.github.io/Portifolio_Lab)
 - [Guilherme](https://guilherme-vieira.vercel.app)
 - [Felipe](https://felipe-pereira.vercel.app/)
 
