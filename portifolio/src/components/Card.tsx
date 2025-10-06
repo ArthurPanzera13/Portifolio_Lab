@@ -31,6 +31,8 @@ const getTypeIcon = (type: ProjectType) => {
     default: return <HelpOutlineIcon />;
   }
 };
+// Sugestão: usar um dicionário (map) em vez de switch para ícones.
+// Benefício: reduz verbosidade, facilita manutenção e evita cases repetidos.
 
 const getStatusIcon = (status: string) => {
   switch (status) {
@@ -39,6 +41,8 @@ const getStatusIcon = (status: string) => {
     default: return <HelpOutlineIcon />;
   }
 };
+// Sugestão: tipar `status` como união ('Em Andamento' | 'Finalizado' | ...), não `string` genérico.
+// Benefício: o TypeScript passa a validar valores e evita estados inválidos.
 
 const getColor = (status: string) => {
   switch (status) {
@@ -47,6 +51,9 @@ const getColor = (status: string) => {
     default: return 'default';
   }
 }
+// Sugestão: mover cores para theme (palette) ou tokens (ex.: theme.palette.warning.main).
+// Benefício: melhora consistência visual, suporte a dark mode e personalização.
+
 
 interface ProjectCardProps {
   project: CardType;
@@ -60,6 +67,12 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   const maxLanguages = 3;
   const showLanguages = project.languages.slice(0, maxLanguages);
   const moreCount = project.languages.length - maxLanguages;
+
+  // Sugestão: não usar `t()` para valores usados em lógica (ícone/cor). Use `project.type`/`project.status` “brutos” e traduza só na UI.
+  // Benefício: evita bugs de mapeamento quando a tradução altera o texto e quebra o switch/dicionário.
+
+  // Sugestão: memoizar `showLanguages` e `moreCount` com useMemo se a lista for grande ou houver renders frequentes.
+  // Benefício: evita recomputação e melhora performance em grids com muitas cards.
 
   return (
     <>
@@ -82,10 +95,18 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           image={project.image || "https://via.placeholder.com/400x180/303030/FFFFFF?text=No+Image"}
           title={t(project.title)}
         />
+        {/* Sugestão: usar `component="img"` + `alt={t(project.title)}` em vez de `image/title` para acessibilidade real da imagem. */}
+        {/* Benefício: leitores de tela anunciam o conteúdo; `CardMedia` com `image` não injeta `alt`. */}
+        {/* Ex.: <CardMedia component="img" image={...} alt={t(project.title)} /> */}
+        {/* Sugestão: adicionar `loading="lazy"` quando `component="img"`. */}
+        {/* Benefício: melhora desempenho em listas longas. */}
+
         <CardContent sx={{ flexGrow: 1 }}>
           <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
           <Chip
             icon={getTypeIcon(t(project.type))}
+            // Sugestão: label traduzido, valor lógico bruto.
+            // Benefício: separa UI (legenda) da lógica (ícone/tipos).
             label={t(project.type)}
             size="small"
             sx={{
@@ -105,6 +126,8 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             }}
           />
           </Box>
+          {/* Sugestão: adicionar `aria-labelledby` ligando o título ao Card para navegação assistiva. */}
+          {/* Benefício: melhora compreensão estrutural para leitores de tela. */}
           <Typography gutterBottom variant="h5" fontWeight="bold">
             {t(project.title)}
           </Typography>
@@ -121,10 +144,15 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           >
             {t(project.description)}
           </Typography>
+          {/* Sugestão: incluir `WebkitLineClamp: 2` e `WebkitBoxOrient: 'vertical'` para truncamento sólido em 2 linhas. */}
+          {/* Benefício: mantém altura consistente e evita cortes incompletos do texto. */}
+
           <Stack direction="row" spacing={1} flexWrap="wrap" useFlexGap sx={{ mt: 2 }}>
             {showLanguages.map((lang, i) => (
               <Chip
                 key={i}
+                // Sugestão: evitar `index` como key; use o valor (`lang`) quando possível.
+                // Benefício: reordenações/edições não causam renders inesperados.
                 label={lang}
                 size="small"
                 sx={{ bgcolor: 'grey.700', color: 'white', fontWeight: 500 }}
@@ -158,10 +186,26 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           >
            {t("projects.btnTexto")}
           </Button>
+          {/* Sugestão: adicionar `aria-haspopup="dialog"` e `aria-controls` apontando para o modal. */}
+          {/* Benefício: comunica semântica de abertura de diálogo para tecnologias assistivas. */}
         </CardActions>
       </Card>
 
       <ProjectModal open={open} handleClose={handleClose} project={project} />
+      {/* Sugestão: focar o primeiro elemento interativo ao abrir e retornar o foco ao botão ao fechar. */}
+      {/* Benefício: fluxo de foco previsível e acessível. */}
     </>
   );
 };
+
+// Sugestão: garantir que CardType tenha id/string única para `id` usado em aria-labelledby.
+// Benefício: evita colisões de IDs e melhora testabilidade (seletores estáveis).
+
+// Sugestão: extrair `ProjectBadges` (chips de tipo/status) e `LanguageChips` em componentes menores.
+// Benefício: reduz complexidade do Card, facilita testes unitários e reuso.
+
+// Sugestão: criar um util `statusToColor(type, theme)` mapeando para `theme.palette` e remover hex codes.
+// Benefício: centraliza regras de cor e facilita temas/branding.
+
+// Sugestão: internacionalizar strings de tipos/status no schema (ex.: project.typeKey = 'type.site') e usar `t(typeKey)`.
+// Benefício: evita hardcodes multilíngues e melhora manutenção das traduções.
