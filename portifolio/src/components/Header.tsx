@@ -45,6 +45,8 @@ export const Header = () => {
         //border: '2px solid red',
         boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.05)",
       }}
+      {/* Sugestão: usar width: '100%' em vez de '100vw'
+         Benefício: evita rolagem horizontal indesejada em alguns navegadores. */}
     >
       <Toolbar
         sx={{
@@ -88,7 +90,10 @@ export const Header = () => {
           >
             {user.name}
           </Typography>
+          {/* Sugestão: substituir cores fixas (#f5f5f5) por theme.palette.text.primary
+             Benefício: melhora compatibilidade com temas claro/escuro e acessibilidade. */}
         </Box>
+
         {/*Menu para mobile e tablets*/}
         {isMobile ? (
           <>
@@ -97,6 +102,8 @@ export const Header = () => {
               <IconButton onClick={() => setOpenDrawer(true)} sx={{ color: "#f5f5f5"}}>
                 <MenuIcon />
               </IconButton>
+              {/* Sugestão: adicionar aria-label="Abrir menu" no IconButton
+                 Benefício: melhora acessibilidade para leitores de tela. */}
             </Box>
             <Drawer
               anchor="top"
@@ -124,6 +131,9 @@ export const Header = () => {
                 <CloseIcon fontSize="large" />
               </IconButton>
 
+              {/* Sugestão: adicionar aria-label="Fechar menu"
+                 Benefício: melhora acessibilidade e entendimento semântico. */}
+
               <List sx={{ mt: 6 }}>
                 {menuItems.map((item) => {
                   const isActive = currentPath === item.path;
@@ -149,6 +159,8 @@ export const Header = () => {
                   );
                 })}
               </List>
+              {/* Sugestão: substituir href por component={Link} to={item.path}
+                 Benefício: mantém navegação SPA sem recarregar a página. */}
             </Drawer>
 
           </>
@@ -182,6 +194,13 @@ export const Header = () => {
               );
             })}
             <LanguageSwitcher></LanguageSwitcher>
+
+            {/* Sugestão: usar NavLink do react-router-dom no lugar de href
+               Benefício: facilita aplicar estilos automáticos em rotas ativas. */}
+
+            {/* Sugestão: separar LanguageSwitcher em Box alinhado à direita (ml: 'auto')
+               Benefício: mantém o layout equilibrado entre o logo e os botões. */}
+
           </Box>
         )}
       </Toolbar>
